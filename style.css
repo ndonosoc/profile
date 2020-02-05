@@ -1,0 +1,76 @@
+h1 {
+  color: #1b262c;
+  font-size: 40px;
+  font-family: 'Jim Nightshade', cursive, monospace;
+}
+h2 {
+  color: #1b262c;
+  font-family: 'Jim Nightshade', cursive, monospace;
+  font-size: 30px;
+  line-height: 1.5;
+}
+body {
+  background-color: #e1f2fb;
+  font-family: 'Open Sans', sans-serif;
+  color: #35495;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+a {
+  color: #6ba8a9;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 30px;
+  margin: 0 20px;
+}
+a:hover {
+  color: #0f4c75;
+  text-decoration: underline;
+}
+.list-inline {
+  display: block;
+  display-size: 30px;
+  padding: 0px;
+}
+.container{
+  width: 700px;
+  margin: 50px auto;
+}
+.centered-blocks {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px;
+  font-size: 40px;
+}
+.img-circle {
+  border-radius: 10%;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .img-circle {
+    width: 200px;
+  }
+}
